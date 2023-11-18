@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * description: A C program that prints alphabets in lowercase, followed by a new line
- * written by: Charlotte Wellington
- * return 0
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-  int alpha = 'a';
-  while(alpha <= 'z')
-  {
-     alpha++;
-     putchar(alpha);
-     putchar('\n');
-  }
-  return 0;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
