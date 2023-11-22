@@ -8,7 +8,7 @@
 int main()
 {
   int alph;
-  for(alph = 97; alph <= 122; alph++)
+  for(alph = 122; alph >= 97; alph--)
 	{
           putchar(alph);
 	  putchar('\n');
