@@ -11,6 +11,6 @@ int main()
   for(num = 48; num <= 57; num++)
      {
        putchar(num + '0');
-     }
-  for(num = 
+     } 
+  return 0;
 }
